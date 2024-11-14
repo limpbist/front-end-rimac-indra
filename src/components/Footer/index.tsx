@@ -15,7 +15,7 @@ export const Footer = () => {
         <div className="content__divider mobile">
           <Divider mode="dark" />
         </div>
-        <div className="content__text">2023 RIMAC Seguros y Reaseguros</div>
+        <div className="content__text">2024 RIMAC Seguros y Reaseguros</div>
       </div>
     </div>
   );

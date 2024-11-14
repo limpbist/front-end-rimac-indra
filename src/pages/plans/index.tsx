@@ -22,7 +22,7 @@ function Plans() {
   const { list } = plan;
   const { user } = useUser();
 
-  const [selectedPerson, setSelectedPerson] = useState(null);
+  const [selectedPerson, setSelectedPerson] = useState('');
   const [plansToShow, setPlansToShow] = useState([]);
 
   const handleSelectedPerson = (person: string) => {

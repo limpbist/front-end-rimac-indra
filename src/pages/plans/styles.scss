@@ -1,0 +1,78 @@
+.plans-container {
+  padding-top: 97px;
+  padding-bottom: 97px;
+
+  .plans-container__arrow-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    div {
+      color: #4f4fff;
+      font-weight: bold;
+    }
+  }
+
+  .plans-container__cards-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plans-container__plans-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plans-container {
+    padding-top: 57px;
+
+    .plans-container__arrow-container {
+      display: none;
+    }
+
+    .plans-container__cards-container {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+}
+.arrow-reversed .arrow-icon {
+  transform: rotate(180deg);
+}
+.pagination {
+  display: none; // Por defecto, oculta la paginación
+
+  @media screen and (max-width: 700px) {
+    // Muestra la paginación solo en dispositivos móviles
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #4f4fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

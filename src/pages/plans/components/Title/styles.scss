@@ -1,0 +1,27 @@
+.plans-title-container {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    max-width: 544px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plans-title-container {
+    margin-top: 31px;
+
+    h1 {
+      font-size: 28px;      
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.logo-container {
+  &.white {
+    svg {
+      g {
+        path {
+          fill: white;
+
+        }
+      }
+
+    }
+  }
+  &.black {
+    svg {
+      g {
+        path {
+          fill: black;
+
+        }
+      }
+
+    }
+  }
+}

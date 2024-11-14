@@ -1,0 +1,25 @@
+.chip-form{
+  background: rgb(0,244,226);
+  background: linear-gradient(60deg, rgba(0,244,226,1) 0%, rgba(0,255,127,1) 100%);
+  width: fit-content;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0px;
+}
+.title-form {
+  font-size: 32px;
+  margin: 0px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 700px) {
+  .title-form {
+    font-size: 28px;
+    line-height: 29px;
+  }
+  .chip-form{
+    font-size: 12px;
+  }
+
+}

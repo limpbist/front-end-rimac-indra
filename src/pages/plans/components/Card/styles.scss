@@ -1,0 +1,77 @@
+.smallcard-container {
+  border-radius: 24px;
+  background: white;
+  height: 212px;
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 1px 10px 0 #aeacf35e;
+  border: none;
+  color: #141938;
+
+  
+  &.selected {
+    box-shadow:0px 0px 0px 3px #03050F inset;
+  }
+  &.unselected {
+    background: none;
+  }
+
+  .smallcard-container__checkbox-container {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+
+    .checkbox-container__unchecked {
+      border: 1px solid #A9AFD9;
+      border-radius: 99px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .smallcard-container__title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+
+    h3 {
+      margin: 0;
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .smallcard-container {
+    height: 160px;
+    width: 100%;
+
+    .smallcard-container__title-container {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      text-align: left;
+  
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+.plans-subtitle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  p {
+    font-size: 16px;
+    margin: 0;
+    max-width: 544px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plans-subtitle-container {
+    p {
+      text-align: left;
+    }
+  }
+}

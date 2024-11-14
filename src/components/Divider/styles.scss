@@ -1,0 +1,14 @@
+.divider-container {
+  display: block;
+  margin: 22px 0;
+  width: 100%;
+  height: 1px;
+
+  &.light {
+    background-color: #CCD1EE;
+  }
+
+  &.dark {
+    background-color: #2B304E;
+  }
+}

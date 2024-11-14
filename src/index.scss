@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #03050f;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 700px) {
+  .desktop {
+    display: none;
+  }
+  .px-mobile-24 {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .mobile {
+    display: none;
+  }
+}
